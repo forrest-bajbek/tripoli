@@ -1,8 +1,12 @@
 version: "3"
 
+
 volumes:
   nextcloud-app:
   ghost-app:
+  jellyfin-app:
+  matrix-conduit-app:
+
 
 services:
 
@@ -24,3 +28,24 @@ services:
     environment:
       - url=http://localhost:3001
       - NODE_ENV=development
+
+  jellyfin-app:
+    image: lscr.io/linuxserver/jellyfin:latest
+    restart: always
+    volumes:
+      - jellyfin-app:/config
+    ports:
+      - 8096:8096
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+
+  element-app:
+      image: vectorim/element-web:latest
+      restart: always
+      ports:
+          - 8009:80
+      volumes:
+          - $PWD/element-app/element_config.json:/app/config.json
+
