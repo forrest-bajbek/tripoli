@@ -50,7 +50,7 @@ Right now we have TrueNAS box with zraid-2 8tb array. This is plenty for now.
 - GitServer
 - Jenkins
 
-### &Cloud Storage:
+### &Cloud Storage
 - Nextcloud
 - Ownloud
 - SFTP
@@ -66,7 +66,6 @@ Right now we have TrueNAS box with zraid-2 8tb array. This is plenty for now.
 
 ### &Media Server
 - Jellyfin
-- Plex
 - Calibre
 
 ### &Torrenting
