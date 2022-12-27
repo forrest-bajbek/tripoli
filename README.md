@@ -39,6 +39,7 @@ Right now we have TrueNAS box with zraid-2 8tb array. This is plenty for now.
 
 ### Matrix
 - Synapse
+    - [x] Element Web
 - Jackal
 
 ### IRC
@@ -51,12 +52,12 @@ Right now we have TrueNAS box with zraid-2 8tb array. This is plenty for now.
 - Jenkins
 
 ### &Cloud Storage
-- Nextcloud
+- [x] Nextcloud
 - Ownloud
 - SFTP
 
 ### &Blogging
-- Ghost
+- [x] Ghost
 - Wordpress
 - Hugo
 - MkDocs
@@ -65,7 +66,7 @@ Right now we have TrueNAS box with zraid-2 8tb array. This is plenty for now.
 - Jitsi
 
 ### &Media Server
-- Jellyfin
+- [x] Jellyfin
 - Calibre
 
 ### &Torrenting
